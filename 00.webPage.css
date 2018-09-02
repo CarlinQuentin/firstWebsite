@@ -1,6 +1,4 @@
-.image{
-    
-}
+
 .title{
 position: fixed;
 font-size: 40px;
@@ -10,13 +8,15 @@ width: 100%;
 height: 100px;
 text-align: center;
 z-index: 1;
-opacity: 0.8;
+opacity: 0.9;
+font-family: 'Indie Flower';
+font-size: 60px;
 }
 body{
     background-image: url("https://www.thespruce.com/thmb/17_d_33Bmmd11mBKSbmoNt9zLKU=/1776x1184/filters:fill(auto,1)/fence-5885bd065f9b58bdb3f7939c.jpg");
     background-repeat: no-repeat;
     background-size: 1800px;
-  
+    margin: 0;
   
    
 }
@@ -142,8 +142,9 @@ top: 160px;
 }
 .list{
     position: fixed;
-    top: 80px;
+    top: 110px;
     z-index: 2;
+    color: rgb(74, 74, 199);
 }
 .links{
   background-color: lightgoldenrodyellow;
@@ -153,10 +154,41 @@ top: 160px;
     background-color: lightgoldenrodyellow;
     top: 72px;
     width: 100%;
+    color: rgb(74, 74, 199);
 }
 .links2{
     background-color: lightgoldenrodyellow;
     position: absolute;
     width: 100%;
-    top: 72px
+    top: 72px;
+    color: rgb(74, 74, 199);
+}
+footer{
+    background-color: rgb(60, 6, 6);
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+.li{
+    display: inline;
+    margin: 10px;
+    background-color: rgb(60, 6, 6);
+    border: 3px solid skyblue;
+}
+.mail{
+    position: absolute;
+    left: 30px;
+}
+.mail1{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.li a{
+    color: tan;
+}
+.li a:hover{
+    color: hotpink;
 }
